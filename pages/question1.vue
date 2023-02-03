@@ -54,7 +54,6 @@ export default {
           var tempReponse = JSON.parse(response.data);
           vm.userList = tempReponse.data;
           vm.totalPages = tempReponse.total_pages;
-          console.log(tempReponse);
         });
     },
     goToPage(page) {
