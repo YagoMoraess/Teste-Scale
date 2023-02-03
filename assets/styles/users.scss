@@ -1,0 +1,83 @@
+.users__wrapper { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em 25em;
+}
+
+.users__card-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px lightgrey solid;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    background-color: #f3f3f3;
+    width: 25em;
+    margin: 3em;
+    padding: 1em;
+}
+
+.users__card-img {
+    width: 12em;
+}
+
+.users__card-info-wrapper {
+    margin: .8em;
+}
+
+.users__card-info-name, .users__card-info-email, .users__card-info-id {
+    margin: .3em;
+}
+
+.users__card-info-name-wrapper, .users__card-info-email-wrapper, .users__card-info-id-wrapper {
+    display: flex;
+    align-items: center;
+    width: 12em;
+}
+
+.users__card-info-name-title, .users__card-info-email-title, .users__card-info-id-title {
+    font-weight: 600;
+}
+
+.users__pagination-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em 25em;
+}
+
+.users__pagination-title {
+    font-size: 1.5em;
+}
+
+.users__pagination {
+    display: flex;
+    margin: .5em;
+}
+
+.users__pagination-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3em 0.5em;
+    font-size: 1.3em;
+    background-color: #d8d8d8;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.users__pagination-card-current {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3em 0.5em;
+    font-size: 1.3em;
+    background-color: #d8d8d8;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 2px;
+    color: aqua;
+    cursor: pointer;
+}
