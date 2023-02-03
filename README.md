@@ -1,4 +1,4 @@
-Após rodar o codigo "npm run dev", entrar no localhost:3000/questions1 para visualizar a primeira questão e localhost:3000/questions2 para visualizar a segunda questão. O projeto precisa do back-end no ar para funcionar com as APIs.
+Após rodar o codigo "npm run dev", entrar no localhost:3000/questions1 para visualizar a primeira questão e localhost:3000/questions2 para visualizar a segunda questão. O projeto precisa do back-end Teste-Scale-Back no ar para funcionar com as APIs.
 
 
 # Nuxt 3 Minimal Starter
