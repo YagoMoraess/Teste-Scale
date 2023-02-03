@@ -74,10 +74,16 @@
     justify-content: center;
     margin: 0.3em 0.5em;
     font-size: 1.3em;
-    background-color: #d8d8d8;
+    background-color: #9b9b9b;
     width: 1.5em;
     height: 1.5em;
     border-radius: 2px;
-    color: aqua;
+    color: rgb(255, 255, 255);
     cursor: pointer;
+}
+
+.users__wrapper-empty {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
 }
